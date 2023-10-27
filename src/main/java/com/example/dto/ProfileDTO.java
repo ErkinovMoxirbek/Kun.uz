@@ -9,7 +9,6 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProfileDTO {
-    private String id;
     private String name;
     private String surname;
     private String email;
@@ -18,6 +17,5 @@ public class ProfileDTO {
     private ProfileStatus status;
     private ProfileRole role;
     private Boolean visible;
-    private LocalDateTime createdDate;
     private String photoId;
 }
