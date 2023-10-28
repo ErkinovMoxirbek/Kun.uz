@@ -1,6 +1,5 @@
 package com.example.enums;
 
 public enum ArticleType {
-//     (Asosiy,Muharrir tanlovi,Dolzarb, Maqola,
-//    Foto yangilik,Interview,Biznes,Surushturuv,Video Yangilik)
+    ASSOSIY,MUHARRIR_TANLOVI,DOLZARB,MAQOLA,FOTO_YANGILIK,INTERVIEW,BIZNES,SURUSHTURUV,VIDEO_YANGILIK
 }
