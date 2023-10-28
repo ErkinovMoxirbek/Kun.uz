@@ -7,8 +7,8 @@ import java.time.LocalDateTime;
 @Getter @Setter @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name = "article_type")
-@Table(name = "article_type")
+@Entity(name = "article")
+@Table(name = "article")
 public class ArticleEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
