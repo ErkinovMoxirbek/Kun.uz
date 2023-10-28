@@ -1,14 +1,25 @@
 package com.example.dto;
 
-import lombok.*;
+import com.example.enums.ArticleStatus;
+import com.example.enums.ArticleType;
+import jakarta.persistence.Column;
 
 import java.time.LocalDateTime;
-@Getter @Setter @ToString
-@NoArgsConstructor
-@AllArgsConstructor
+import java.util.LinkedList;
+import java.util.List;
+
 public class ArticleDTO {
-    private String nameUz;
-    private String nameRu;
-    private String nameEn;
+    private String title;
+    private String description;
+    private String content;
+    private Integer sharedCount;
+    private String imageId;
+    private Integer regionId;
+    private Integer categoryId;
+    private String moderatorId;
+    private String publisherId;
+    private ArticleStatus status;
     private Boolean visible;
+    private Integer viewCount;
+    private List<ArticleType> types = new LinkedList<>();
 }
